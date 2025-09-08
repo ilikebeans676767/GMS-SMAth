@@ -1,0 +1,53 @@
+KeyName,English,Spanish
+title_play,PLAY,JUGAR
+title_endless,ARCADE MODE,ARCADA
+title_settings,SETTINGS,AJUSTES
+title_exit,EXIT,SALIDA
+title_name,RUSHDOWN RELOADED,RUSHDOWN RECARGADO
+,,
+,,
+rank_1,NICE,LINDO
+rank_2,SICK,ENFERMOS
+rank_3,EPIC,ÃPICO
+rank_4,SAVAGE,SALVAJE
+rank_5,DISGUSTING,DESAGRADABLE
+rank_6,POG,POG
+rank_7,AYOO,AYOO
+rank_8,GODDAMN,DIOS MIERDA
+rank_9,^$#^#%$*,^$#^#%$*
+rank_10,LET'S GO!,Â¡VAMOS!
+,,
+gameover_title,BLAMMED,BLAMMED
+gameover_retry,Retry?,Rever?
+,,
+screen_pause_resume,RESUME,REANUDAR
+screen_pause_settings,SETTINGS,AJUSTES
+screen_pause_restart,RESTART,REINICIA EL JUEGO
+screen_pause_menu,MAIN MENU,MENÃ PRINCIPAL
+screen_pause_fullscreen,FULLSCREEN,PANTALLA COMPLETA
+,,
+screen_title_gameplay,GAMEPLAY,COMO SE JUEGA
+screen_title_video,VIDEO,VIDEO
+screen_title_audio,AUDIO,AUDIO
+screen_title_back,BACK,ATRÃS
+screen_title_on, ON, EN
+screen_title_off, OFF, APAGADO
+,,
+screen_gameplay_screenshake,SCREEN SHAKE,MOVIMIENTO DE PANTALLA
+screen_gameplay_screenflash,SCREEN FLASH,DESTELLO DE PANTALLA
+screen_gameplay_chromatic,CHROMATIC ABERRATION,ABERRACIÃN CROMÃTICA
+screen_gameplay_vignette,VIGNETTE,VIÃETA
+,,
+screen_video_display,DISPLAY MODE,MODO DE VISUALIZACIÃN
+screen_video_display_window, WINDOWED, CON VENTANA
+screen_video_display_fullscreen, FULLSCREEN , PANTALLA COMPLETA
+screen_video_disable, DISABLED ON WEB, DESHABILITADO ENCENDIDO
+screen_video_vsync,VSYNC,VSYNC
+screen_video_aa,ANTI-ALIASING,ANTI-ALIASING
+screen_video_frames,MAX FRAMES,FOTOS MÃX.
+,,
+screen_audio_main,MAIN VOLUME,VOLUMEN PRINCIPAL
+screen_audio_sound,SOUND VOLUME,VOLUMEN DE SONIDO
+screen_audio_music,MUSIC VOLUME,VOLUMEN DE LA MÃSICA
+,,
+gui_text_room,Room,HabitaciÃ³n
