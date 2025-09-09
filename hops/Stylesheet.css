@@ -1,0 +1,15 @@
+#LevelLookUp {
+	color: white;
+	font-size: 32px;
+	font-family: NG;
+	text-transform: uppercase;
+	
+	opacity: 85%;
+	background-color: black;
+	
+	padding-left: 64px;
+	
+	outline: 8px solid #fff;
+	border: none;
+	border-radius: 32px;
+	}
