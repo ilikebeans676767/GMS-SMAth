@@ -34,9 +34,9 @@ Promise.all([
     mergeFiles(getParts("BuckshotRoulette.wasm", 1, 2))
 ]).then(([pckUrl, wasmUrl]) => {
     window.fetch = async function (url, ...args) {
-        if (url.endsWith("BuckshotRoulette.pck")) {
+        if (url.endsWith("Roulette.pck")) {
             return originalFetch(pckUrl, ...args);
-        } else if (url.endsWith("BuckshotRoulette.wasm")) {
+        } else if (url.endsWith("Roulette.wasm")) {
             return originalFetch(wasmUrl, ...args);
         } else {
             return originalFetch(url, ...args);
