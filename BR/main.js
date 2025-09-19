@@ -1,22 +1,21 @@
 const originalFetch = window.fetch;
-
 function mergeFiles(fileParts) {
     return new Promise((resolve, reject) => {
         let buffers = [];
 
-        function fetchPart(Buckshot Roulette) {
-            if (Buckshot Roulette >= fileParts.length) {
+        function fetchPart(BuckshotRoulette) {
+            if (BuckshotRoulette >= fileParts.length) {
                 let mergedBlob = new Blob(buffers);
                 let mergedFileUrl = URL.createObjectURL(mergedBlob);
                 resolve(mergedFileUrl);
                 return;
             }
-            fetch(fileParts[Buckshot Roulette]).then((response) => {
-                if (!response.ok) throw new Error("Missing part: " + fileParts[Buckshot Roulette]);
+            fetch(fileParts[BuckshotRoulette]).then((response) => {
+                if (!response.ok) throw new Error("Missing part: " + fileParts[BuckshotRoulette]);
                 return response.arrayBuffer();
             }).then((data) => {
                 buffers.push(data);
-                fetchPart(Buckshot Roulette + 1);
+                fetchPart(BuckshotRoulette + 1);
             }).catch(reject);
         }
         fetchPart(0);
@@ -31,13 +30,13 @@ function getParts(file, start, end) {
     return parts;
 }
 Promise.all([
-    mergeFiles(getParts("Buckshot Roulette.pck", 1, 14)),
-    mergeFiles(getParts("Buckshot Roulette.wasm", 1, 2))
+    mergeFiles(getParts("BuckshotRoulette.pck", 1, 14)),
+    mergeFiles(getParts("BuckshotRoulette.wasm", 1, 2))
 ]).then(([pckUrl, wasmUrl]) => {
     window.fetch = async function (url, ...args) {
-        if (url.endsWith("Buckshot Roulette.pck")) {
+        if (url.endsWith("BuckshotRoulette.pck")) {
             return originalFetch(pckUrl, ...args);
-        } else if (url.endsWith("Buckshot Roulette.wasm")) {
+        } else if (url.endsWith("BuckshotRoulette.wasm")) {
             return originalFetch(wasmUrl, ...args);
         } else {
             return originalFetch(url, ...args);
