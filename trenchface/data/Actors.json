@@ -1,0 +1,18 @@
+[
+null,
+{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"$rat","classId":1,"equips":[0,0,0,0],"faceIndex":3,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"$soldier","classId":2,"equips":[9,1,2,2],"faceIndex":3,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"Raider","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"$soldier(orang)","classId":3,"equips":[9,1,5,2],"faceIndex":3,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"Medic","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"$soldier(orang)","classId":4,"equips":[9,1,3,2],"faceIndex":3,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"Sniper","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"$soldier(orang)","classId":5,"equips":[9,1,4,2],"faceIndex":3,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"Cattle","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"$soldier(orang)","classId":9,"equips":[9,1,2,2],"faceIndex":1,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"","nickname":"Raider","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"$soldier(orang)","classId":10,"equips":[9,1,2,2],"faceIndex":5,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"","nickname":"Raider","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"$soldier(orang)","classId":8,"equips":[9,1,2,2],"faceIndex":3,"faceName":"playables1","traits":[],"initialLevel":1,"maxLevel":1,"name":"","nickname":"Raider","note":"","profile":""},
+{"id":10,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"---","nickname":"","note":"","profile":""},
+{"id":11,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":12,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":13,"battlerName":"","characterIndex":0,"characterName":"$rat(orange)","classId":12,"equips":[0,0,2,2],"faceIndex":0,"faceName":"rat","traits":[],"initialLevel":1,"maxLevel":1,"name":"Pest","nickname":"","note":"<Equip Slot>\nAccessory\nAccessory\nAccessory\nAccessory\n</Equip Slot>","profile":""},
+{"id":14,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":15,"battlerName":"","characterIndex":0,"characterName":"$spearhead","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]
